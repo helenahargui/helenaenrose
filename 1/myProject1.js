@@ -42,9 +42,6 @@ function fillWithColor() {
           case 'st11':
             path.setAttribute('fill', '#F0979D'); // Set the fill color for class1
             break;
-          case 'st12':
-            path.setAttribute('fill', '#ED8EA0'); // Set the fill color for class2
-            break;
         }
       }
     });
