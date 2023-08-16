@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+  color: brown;
+  overflow-x:hidden;
+  margin:0;
+}
+
+.container{
+  background-color: white;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width:100vw;
+  min-height: 10vh;
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color:lightpink;
+  height: 200px;
+  width: 200px;
+  border-radius:50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-90deg);
+}
+
+.circle button{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  height: 100px;
+  background: transparent;
+  border:0;
+  font-size: 26px;
+  color: brown;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.wrapper{
+  position:relative;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.cakes {
+  position: absolute;
+  top: 150px; 
+  transform: rotate(90deg);
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+
+.mbti {
+  position: absolute;
+}
+
+/* Add this rule to adjust the transition of the cakes image */
+.cakesdown {
+  position: absolute;
+  transition: transform 0.5s linear;
+  transform: rotate(0deg);
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+
+
