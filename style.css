@@ -1,0 +1,30 @@
+/* style.css */
+
+/* Reset default list styles */
+.container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(helenaenrose.png);
+  background-size: cover; /* Adjust to cover the entire container */
+  color: white;
+}
+
+/* Style the links */
+.container a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+.container a:hover {
+  background-color: #ff8fab;
+  color: white;
+}
