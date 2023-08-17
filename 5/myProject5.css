@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin:0;
+}
+
+.bg {
+  background: url(sailormoon.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text{
+  font-size: 50px;
+  color: white;
+}
+
+.sailor {
+  opacity: 0; 
+}
+
+.sailor0 {
+  background: url(sailor0.png) no-repeat center center/cover;
+  position: absolute;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+}
+
+.sailor1 {
+  background: url(sailor1.png) no-repeat center center/cover;
+  position: absolute;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+}
+
+.sailor2 {
+  background: url(sailor2.png) no-repeat center center/cover;
+  position: absolute;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+}
+
+.sailor3 {
+  background: url(sailor3.png) no-repeat center center/cover;
+  position: absolute;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+}
+
+.sailor4 {
+  background: url(sailor4.png) no-repeat center center/cover;
+  position: absolute;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+}
+
+.sailor5 {
+  background: url(sailor5.png) no-repeat center center/cover;
+  position: absolute;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+}
