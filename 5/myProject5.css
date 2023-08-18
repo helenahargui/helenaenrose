@@ -37,7 +37,6 @@ body {
 .sailor0 {
   background: url(sailor0.png) no-repeat center center/cover;
   position: absolute;
-  position: absolute;
   top: -30px;
   left: -30px;
   width: calc(100vw + 60px);
@@ -46,7 +45,6 @@ body {
 
 .sailor1 {
   background: url(sailor1.png) no-repeat center center/cover;
-  position: absolute;
   position: absolute;
   top: -30px;
   left: -30px;
@@ -57,7 +55,6 @@ body {
 .sailor2 {
   background: url(sailor2.png) no-repeat center center/cover;
   position: absolute;
-  position: absolute;
   top: -30px;
   left: -30px;
   width: calc(100vw + 60px);
@@ -66,7 +63,6 @@ body {
 
 .sailor3 {
   background: url(sailor3.png) no-repeat center center/cover;
-  position: absolute;
   position: absolute;
   top: -30px;
   left: -30px;
@@ -77,7 +73,6 @@ body {
 .sailor4 {
   background: url(sailor4.png) no-repeat center center/cover;
   position: absolute;
-  position: absolute;
   top: -30px;
   left: -30px;
   width: calc(100vw + 60px);
@@ -86,7 +81,6 @@ body {
 
 .sailor5 {
   background: url(sailor5.png) no-repeat center center/cover;
-  position: absolute;
   position: absolute;
   top: -30px;
   left: -30px;
