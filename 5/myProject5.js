@@ -25,10 +25,9 @@ function blurringAndShowSailors() {
   if (load > 100) {
     clearInterval(int);
   }
-
   // Update background blur
   bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`;
-
+  
   if (load >= sailorTimeIntervals[currentSailorIndex]) {
     showNextSailor();
     currentSailorIndex++;
@@ -43,7 +42,6 @@ const sailors = document.querySelectorAll('.sailor');
 let currentSailor = 0;
 
 function showSailor() {
-
   // Hide previous sailor
   sailors[currentSailor - 1] && (sailors[currentSailor - 1].style.opacity = 0);  
 
@@ -57,9 +55,7 @@ function showSailor() {
   if(currentSailor >= sailors.length) {
     currentSailor = 0; 
   }
-
 }
-
 // Show next sailor every second
 setInterval(showSailor, totalLoadTime / 7,);
 
