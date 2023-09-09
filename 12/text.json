@@ -1,0 +1,96 @@
+{
+  "WarmingLittleSurprises": [
+    {
+      "title": "Memory Lane Photo Album",
+      "description": "Create a personalized photo album filled with memorable moments shared between the bride and her friends or family throughout the years. This will remind her of the journey she's been on and the people who've been there with her.",
+      "backgroundImg": "warmingLittleSurprises/1.png"
+    },
+    {
+      "title": "Relaxation Spa Kit",
+      "description": "Assemble a self-care package that includes items like bath bombs, essential oils, face masks, and body lotion. It'll provide the bride with a way to unwind and relax amidst wedding preparations.",
+      "backgroundImg": "warmingLittleSurprises/2.png"
+    },
+    {
+      "title": "Handwritten Notes for Each Day",
+      "description": "Write a short letter or note for the bride to open each day leading up to the wedding. It can include memories, quotes, or simple well-wishes to remind her she's loved.",
+      "backgroundImg": "warmingLittleSurprises/3.png"
+    },
+    {
+      "title": "Breakfast Delight",
+      "description": "Surprise the bride with her favorite breakfast one morning. Whether it's homemade pancakes, a special coffee blend, or a fruit platter, she'll appreciate the thoughtful gesture.",
+      "backgroundImg": "warmingLittleSurprises/4.png"
+    },
+    {
+      "title": "Sentimental Jewelry",
+      "description": "Gift her a delicate piece of jewelry that she can wear on the wedding day. It could be a bracelet with a special charm, a necklace, or a pair of earrings.",
+      "backgroundImg": "warmingLittleSurprises/5.png"
+    },
+    {
+      "title": "Personalized Playlist",
+      "description": "Create a playlist of songs that have significance to the bride's life and your relationship with her. This can be a mix of upbeat tunes and emotional melodies she can listen to leading up to the big day.",
+      "backgroundImg": "warmingLittleSurprises/6.png"
+    },
+    {
+      "title": "Night Under the Stars",
+      "description": "Set up a small area in the backyard or balcony with blankets, fairy lights, and some snacks. Spend an evening together watching the stars, chatting, and enjoying each other's company.",
+      "backgroundImg": "warmingLittleSurprises/7.png"
+    },
+    {
+      "title": "Recipe Book",
+      "description": "Compile family and friends' favorite recipes into a book for the bride. This not only is a heartfelt gift but will also come in handy in her new life.",
+      "backgroundImg": "warmingLittleSurprises/8.png"
+    },
+    {
+      "title": "DIY Fragrance Kit",
+      "description": "Create a kit with essential oils, allowing her to make her own perfume blend. It's a fun activity, and she can potentially craft a unique scent for the wedding day.",
+      "backgroundImg": "warmingLittleSurprises/9.png"
+    },
+    {
+      "title": "Movie Night In",
+      "description": "Choose a selection of her favorite films, prepare some snacks, and have a cozy movie marathon evening. It'll be a wonderful way to distract from the wedding stress and bond over shared favorites.",
+      "backgroundImg": "warmingLittleSurprises/10.png"
+    }
+  ],
+  "GiftIdeasForNewlyWeds": [
+    {
+      "title": "Personalized Couples Calendar",
+      "description": "A calendar marking all the special dates they share: first date, engagement day, wedding day, and other special moments. It's both functional and a trip down memory lane."
+    },
+    {
+      "title": "Matching Bathrobes",
+      "description": "Cozy matching bathrobes that they can lounge in during their weekends or after a long day. Personalize them with their initials for an extra touch."
+    },
+    {
+      "title": "Experience Gift Cards",
+      "description": "Instead of physical items, gift them experiences: a spa day, a cooking class, wine tasting, or even a weekend getaway. It creates memories to last a lifetime."
+    },
+    {
+      "title": "Customized Nameplate",
+      "description": "A beautiful nameplate with their shared last name or both their names. It's a wonderful addition to their new home."
+    },
+    {
+      "title": "Artisanal Coffee Set",
+      "description": "A set of gourmet coffee beans, a coffee grinder, and a French press. Perfect for couples who love to start their day with a rich brew."
+    },
+    {
+      "title": "Board Games Collection",
+      "description": "Classic board games like Scrabble, Monopoly, or Settlers of Catan. A wonderful way for the couple to bond on quiet nights in."
+    },
+    {
+      "title": "Personalized Cookware",
+      "description": "Pots, pans, or baking dishes engraved with their names or wedding date. Functional and a constant reminder of their special day."
+    },
+    {
+      "title": "Wine Subscription Box",
+      "description": "A monthly subscription box delivering wines from around the world. A gift that keeps on giving and introducing them to new flavors."
+    },
+    {
+      "title": "Couples Journal",
+      "description": "A journal meant for two, with prompts and space for both of them to write. It becomes a cherished keepsake filled with their shared thoughts and experiences."
+    },
+    {
+      "title": "Home Plant Kit",
+      "description": "A set of indoor plants or herbs. It's a gift that grows and can be cared for together, symbolizing their growing relationship."
+    }
+  ]
+}
