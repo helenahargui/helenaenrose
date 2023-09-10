@@ -1,0 +1,108 @@
+{
+  "recipe": [
+    {
+      "name": "Chicken and Vegetable Stew",
+      "ingredients": [
+        {
+          "item": "potatoes",
+          "quantity": "2",
+          "unit": "whole",
+          "availability": [
+            {
+              "supermarket": "MartZone",
+              "in_stock": true
+            },
+            {
+              "supermarket": "FreshGrocers",
+              "in_stock": false
+            }
+          ]
+        },
+        {
+          "item": "carrots",
+          "quantity": "3",
+          "unit": "whole",
+          "availability": [
+            {
+              "supermarket": "MartZone",
+              "in_stock": true
+            },
+            {
+              "supermarket": "GreenFoods",
+              "in_stock": true
+            }
+          ]
+        },
+        {
+          "item": "chicken",
+          "quantity": "500",
+          "unit": "grams",
+          "availability": [
+            {
+              "supermarket": "FreshGrocers",
+              "in_stock": true
+            },
+            {
+              "supermarket": "GreenFoods",
+              "in_stock": false
+            }
+          ]
+        }
+      ],
+      "instructions": "Peel and chop the potatoes and carrots. Cook chicken until browned. Combine all ingredients in a pot, add water and seasoning, and let it simmer for 1 hour.",
+      "image": "1.png"
+    },
+    {
+      "name": "Chicken and Veggie Roast",
+      "ingredients": [
+        {
+          "item": "potatoes",
+          "quantity": "3",
+          "unit": "whole",
+          "availability": [
+            {
+              "supermarket": "MartZone",
+              "in_stock": true
+            },
+            {
+              "supermarket": "FreshGrocers",
+              "in_stock": true
+            }
+          ]
+        },
+        {
+          "item": "carrots",
+          "quantity": "2",
+          "unit": "whole",
+          "availability": [
+            {
+              "supermarket": "GreenFoods",
+              "in_stock": true
+            },
+            {
+              "supermarket": "MartZone",
+              "in_stock": false
+            }
+          ]
+        },
+        {
+          "item": "chicken",
+          "quantity": "1",
+          "unit": "whole",
+          "availability": [
+            {
+              "supermarket": "GreenFoods",
+              "in_stock": true
+            },
+            {
+              "supermarket": "MartZone",
+              "in_stock": false
+            }
+          ]
+        }
+      ],
+      "instructions": "Preheat oven to 180°C. Place chopped potatoes and carrots in a baking dish. Place the chicken on top. Season with salt, pepper, and herbs. Roast for 1.5 hours or until the chicken is cooked through.",
+      "image": "2.png"
+    }
+  ]
+}
