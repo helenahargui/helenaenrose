@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    font-family: 'Press Start 2P', sans-serif;
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+.btn {
+    border: 0;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    transition: margin 0.5s ease-out;
+}
+
+a {
+    color: black;
+}
+
+.screen.up {
+    margin-top: -100vh;
+}
+
+.cat-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.cat-list li {
+    margin: 10px;
+}
+
+.choose-cat-btn {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    font-family: inherit;
+    width: 150px;
+    height: 150px;
+}
+
+.choose-cat-btn img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.choose-cat-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.choose-cat-btn:active {
+    background-color: rgba(255,255,255,0.7);
+}
+
+.game-container {
+    position: relative;
+}
+
+#time, 
+#score {
+    position: absolute;
+    top: 20px;
+}
+
+#time {
+    left: 20px;
+}
+
+.score {
+    right: 20px;
+}
+
+.message {
+    line-height: 1.7;
+    background-color: rgba(255,255,255,0.7);
+    width: 100%;
+    padding: 20px;
+    z-index: 100;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -150%);
+}
+
+.message.visible {
+    opacity: 1;
+    transform: translate(-50%, 150%);
+}
+
+.cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    transform: translate(-50%, -50%) scale(1);
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+.cat img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.cat.caught{
+    transform: translate(-50%, -50%) scale(0);
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFEBEF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+  color: #260108;
+}
+
+.empty {
+  height: 150px;
+  width: 150px;
+  margin:10px;
+  border: solid 3px pink;
+  background-color: white;
+}
+
+.fill {
+  background-image: url(http://source.unsplash.com/random/150x150);
+  height: 145px;
+  width: 145px;
+  cursor: pointer;
+}
+
+.draganddrop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* draganddrop */
+
+
+
